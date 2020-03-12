@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let weight=Number(prompt("nhap so can nang cua ban(kg): "));
+    let height=Number(prompt("nhap chieu cao cua ban (m): "));
+    let BMI=weight/(height*height);
+    document.write(BMI);
+    if (BMI<18.5){
+        document.write("you are underweight");
+    }else if(BMI<=25){
+        document.write("you are normal");
+    }else if(BMI<=30){
+        document.write("you are overweight");
+    }else{
+        document.write("you are obese");
+    }
+
+
+
+</script>
+
+</body>
+</html>
